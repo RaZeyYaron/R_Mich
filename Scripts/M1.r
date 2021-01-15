@@ -7,11 +7,11 @@ Wins_ND <- 0
 Wins_RF <- 0
 
 #Loop en tel de wins in column 2 (Column 2 kan je zien heet champion)
-for(i in AOpen[,2]) {
-  if(i == "Novak Djokovic") {
+for(y in AOpen[,2]) {
+  if(y == "Novak Djokovic") {
     Wins_ND <- Wins_ND + 1
   }
-  if (i == "Roger Federer") {
+  if (y == "Roger Federer") {
     Wins_RF <- Wins_RF + 1
   }
 }
