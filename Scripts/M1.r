@@ -11,7 +11,7 @@ for(y in AOpen[,2]) {
   if(y == "Novak Djokovic") {
     Wins_ND <- Wins_ND + 1
   }
-  if (y == "Roger Federer") {
+  if(y == "Roger Federer") {
     Wins_RF <- Wins_RF + 1
   }
 }
@@ -22,7 +22,7 @@ if(Wins_ND > Wins_RF) {
 } else{
   if (Wins_ND == Wins_RF) {
     print("Both have the same number of wins")
-  } else {
-    print{"Federer has more wins"}
+    } else{
+    print("Federer has more wins")
   }
 }
